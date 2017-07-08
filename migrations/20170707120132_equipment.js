@@ -5,6 +5,7 @@ exports.up = function(knex, Promise) {
     table.string('name');
     table.boolean('is_weapon');
     table.boolean('is_armor');
+    table.boolean('is_tool');
     table.integer('weight');
     table.integer('price');
   });
