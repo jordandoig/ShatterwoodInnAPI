@@ -1,7 +1,12 @@
 
 exports.up = function(knex, Promise) {
-  return knex.schema.createTable('subtrait', function (table) {
-
+  return knex.schema.createTable('trait', function (table) {
+    table.increments();
+    table.integer('subrace_id').references('id').inTable('subrace');
+    table.string('name');
+    table.string('desc');
+    table.boolean('stat_change');
+    table.integer('phb_page');
   })
 };
 
