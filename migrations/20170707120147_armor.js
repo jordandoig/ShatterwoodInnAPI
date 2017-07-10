@@ -3,6 +3,7 @@ exports.up = function(knex, Promise) {
   return knex.schema.createTable('armor', function (table) {
     table.increments();
     table.integer('equipment_id').references('id').inTable('equipment');
+    table.string('name');
     table.integer('ac_bonus');
     table.integer('magic_mod');
     table.string('magic_desc');

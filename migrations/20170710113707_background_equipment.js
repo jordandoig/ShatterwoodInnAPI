@@ -8,5 +8,5 @@ exports.up = function(knex, Promise) {
 };
 
 exports.down = function(knex, Promise) {
-  return knex.schema.createTable('background_equipment')
+  return knex.schema.dropTable('background_equipment')
 };

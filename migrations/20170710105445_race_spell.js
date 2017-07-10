@@ -8,5 +8,5 @@ exports.up = function(knex, Promise) {
 };
 
 exports.down = function(knex, Promise) {
-  return knex.schema.createTable('race_spell')
+  return knex.schema.dropTable('race_spell')
 };
