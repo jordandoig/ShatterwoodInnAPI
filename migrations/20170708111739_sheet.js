@@ -1,7 +1,68 @@
 
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('sheet', function (table) {
-
+    table.increments();
+    table.integer('class_id').references('id').inTable('class');
+    table.integer('background_id').references('id').inTable('background');
+    table.integer('race_id').references('id').inTable('race');
+    table.string('player_name');
+    table.string('character_name');
+    table.integer('level');
+    table.integer('acrobatics');
+    table.integer('animal_handling');
+    table.integer('arcana');
+    table.integer('athletics');
+    table.integer('deception');
+    table.integer('history');
+    table.integer('insight');
+    table.integer('intimidation');
+    table.integer('investigation');
+    table.integer('medicine');
+    table.integer('nature');
+    table.integer('perception');
+    table.integer('performance');
+    table.integer('persuasion');
+    table.integer('religion');
+    table.integer('sleight_of_hand');
+    table.integer('stealth');
+    table.integer('survival');
+    table.boolean('acrobatics_prof');
+    table.boolean('animal_handling_prof');
+    table.boolean('arcana_prof');
+    table.boolean('athletics_prof');
+    table.boolean('deception_prof');
+    table.boolean('history_prof');
+    table.boolean('insight_prof');
+    table.boolean('intimidation_prof');
+    table.boolean('investigation_prof');
+    table.boolean('medicine_prof');
+    table.boolean('nature_prof');
+    table.boolean('perception_prof');
+    table.boolean('performance_prof');
+    table.boolean('persuasion_prof');
+    table.boolean('religion_prof');
+    table.boolean('sleight_of_hand_prof');
+    table.boolean('stealth_prof');
+    table.boolean('survival_prof');
+    table.string('alignment');
+    table.integer('xp');
+    table.integer('str');
+    table.integer('dex');
+    table.integer('con');
+    table.integer('int');
+    table.integer('wis');
+    table.integer('cha');
+    table.integer('hp_max');
+    table.string('personality_traits');
+    table.string('ideals');
+    table.string('bonds');
+    table.string('flaws');
+    table.integer('age');
+    table.string('height');
+    table.string('weight');
+    table.string('eyes');
+    table.string('skin');
+    table.string('hair');
   })
 };
 
