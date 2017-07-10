@@ -1,6 +1,6 @@
 
 exports.up = function(knex, Promise) {
-  return knex.schema.createTable('trait', function (table) {
+  return knex.schema.createTable('subtrait', function (table) {
     table.increments();
     table.integer('subrace_id').references('id').inTable('subrace');
     table.string('name');
