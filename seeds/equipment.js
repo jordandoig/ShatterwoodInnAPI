@@ -852,698 +852,833 @@ exports.seed = function(knex, Promise) {
           price: .2
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 95,
+          name: "Antitoxin",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
+          weight: 0,
           price: 5000
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 96,
+          name: "Crystal",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 1000
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 97,
+          name: "Orb",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 3,
+          price: 2000
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 98,
+          name: "Rod",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 2,
+          price: 1000
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 99,
+          name: "Staff",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 4,
+          price: 500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 100,
+          name: "Wand",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 1000
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 101,
+          name: "Backpack",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 5,
+          price: 200
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 102,
+          name: "Ball Bearings (bag of 1000)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 2,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 103,
+          name: "Barrel",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 70,
+          price: 200
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 104,
+          name: "Basket",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 2,
+          price: 40
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 105,
+          name: "Bedroll",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 7,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 106,
+          name: "Bell",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 0,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 107,
+          name: "Blanket",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 3,
+          price: 50
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 108,
+          name: "Block and Tackle",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 5,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 109,
+          name: "Book",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 5,
+          price: 2500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 110,
+          name: "Bottle, glass",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 2,
+          price: 200
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 111,
+          name: "Bucket",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 2,
+          price: 5
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 112,
+          name: "Caltrops (bag of 20)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 2,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 113,
+          name: "Candle",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 0,
+          price: 1
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 114,
+          name: "Case, Crossbow bolt",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 115,
+          name: "Case, Map or Scroll",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 116,
+          name: "Chain (10ft)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 10,
+          price: 500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 117,
+          name: "Chalk (1 piece)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 0,
+          price: 1
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 118,
+          name: "Chest",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 25,
+          price: 500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 119,
+          name: "Climber's Kit",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 12,
+          price: 2500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 120,
+          name: "Clothes, Common",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 3,
+          price: 50
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 121,
+          name: "Clothes, Costume",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 4,
+          price: 500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 122,
+          name: "Clothes, Fine",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 6,
+          price: 1500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 123,
+          name: "Clothes, Traveler's",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 4,
+          price: 200
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 124,
+          name: "Component Pouch",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 2,
+          price: 2500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 125,
+          name: "Crowbar",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 5,
+          price: 200
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 126,
+          name: "Sprig of Mistletoe",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 0,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 127,
+          name: "Totem",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 0,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 128,
+          name: "Wooden Staff",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 4,
+          price: 500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 129,
+          name: "Yew Wand",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 1000
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 130,
+          name: "Fishing Tackle",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 4,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 131,
+          name: "Flask or Tankard",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 2
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 132,
+          name: "Grappling Hook",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 4,
+          price: 200
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 133,
+          name: "Hammer",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 3,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 134,
+          name: "Hammer, Sledge",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 10,
+          price: 200
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 135,
+          name: "Healer's Kit",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 3,
+          price: 500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 136,
+          name: "Amulet",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 137,
+          name: "Emblem",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 0,
+          price: 500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 138,
+          name: "Reliquary",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 2,
+          price: 500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 139,
+          name: "Holy Water (flask)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 2500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 140,
+          name: "Hourglass",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 2500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 141,
+          name: "Hunting Trap",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 25,
+          price: 500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 142,
+          name: "Ink (1 ounce bottle)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 0,
+          price: 1000
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 143,
+          name: "Ink Pen",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 0,
+          price: 2
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 144,
+          name: "Jug or Pitcher",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 4,
+          price: 2
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 145,
+          name: "Ladder (10ft)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 25,
+          price: 10
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 146,
+          name: "Lamp",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 50
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 147,
+          name: "Lantern, Bullseye",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 2,
+          price: 1000
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 148,
+          name: "Lantern, Hooded",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 2,
+          price: 500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 149,
+          name: "Lock",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 1000
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 150,
+          name: "Magnifying Glass",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 0,
+          price: 10000
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 151,
+          name: "Manacles",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 6,
+          price: 200
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 152,
+          name: "Mess Kit",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 20
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 153,
+          name: "Mirror, Steel",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: .5,
+          price: 500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 154,
+          name: "Oil (flask)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 10
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 155,
+          name: "Paper (1 sheet)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 0,
+          price: 20
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 156,
+          name: "Parchment (1 sheet)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 0,
+          price: 10
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 157,
+          name: "Perfume (vial)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 0,
+          price: 500
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 158,
+          name: "Pick, Miner's",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 10,
+          price: 200
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 159,
+          name: "Piton",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: .25,
+          price: 5
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 160,
+          name: "Poison, Basic (vial)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 0,
+          price: 10000
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 161,
+          name: "Pole (10 ft)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 7,
+          price: 5
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 162,
+          name: "Pot, Iron",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 10,
+          price: 200
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 163,
+          name: "Potion of Healing",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
+          weight: .5,
           price: 5000
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 164,
+          name: "Pouch",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 50
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 165,
+          name: "Quiver",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 1,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 166,
+          name: "Ram, Portable",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 35,
+          price: 400
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 167,
+          name: "Rations (1 day)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 2,
+          price: 50
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 168,
+          name: "Robes",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 4,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 169,
+          name: "Rope, Hempen (50 ft)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 10,
+          price: 100
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 170,
+          name: "Rope, Silk (50 ft)",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
-          price: 5000
+          weight: 5,
+          price: 1000
         },
         {
-          id: 51,
-          name: "Alchemist's Supplies",
+          id: 171,
+          name: "Sack",
           is_weapon: false,
           is_armor: false,
           is_tool: false,
-          weight: 8,
+          weight: .5,
+          price: 1
+        },
+        {
+          id: 172,
+          name: "Scale, Merchant's",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 3,
+          price: 500
+        },
+        {
+          id: 173,
+          name: "Sealing Wax",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 0,
+          price: 50
+        },
+        {
+          id: 174,
+          name: "Shovel",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 5,
+          price: 200
+        },
+        {
+          id: 175,
+          name: "Signal Whistle",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 0,
+          price: 5
+        },
+        {
+          id: 176,
+          name: "Signet Ring",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 0,
+          price: 500
+        },
+        {
+          id: 177,
+          name: "Soap",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 0,
+          price: 2
+        },
+        {
+          id: 178,
+          name: "Spellbook",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 3,
           price: 5000
+        },
+        {
+          id: 179,
+          name: "Spike, Iron",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: .5,
+          price: 10
+        },
+        {
+          id: 180,
+          name: "Spyglass",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 1,
+          price: 100000
+        },
+        {
+          id: 181,
+          name: "Tent, Two Person",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 20,
+          price: 200
+        },
+        {
+          id: 182,
+          name: "Tinderbox",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 1,
+          price: 50
         },
+        {
+          id: 183,
+          name: "Torch",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 1,
+          price: 1
+        },
+        {
+          id: 184,
+          name: "Vial",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 0,
+          price: 100
+        },
+        {
+          id: 185,
+          name: "Waterskin",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 5,
+          price: 20
+        },
+        {
+          id: 186,
+          name: "Whetstone",
+          is_weapon: false,
+          is_armor: false,
+          is_tool: false,
+          weight: 1,
+          price: 1
+        }
       ]);
     });
 };
