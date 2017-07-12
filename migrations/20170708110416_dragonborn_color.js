@@ -4,6 +4,7 @@ exports.up = function(knex, Promise) {
     table.increments();
     table.string('color');
     table.string('damage_type');
+    table.string('save_ability');
     table.boolean('is_line');
     table.boolean('is_cone');
     table.integer('phb_page');
