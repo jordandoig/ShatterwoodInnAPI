@@ -1,10 +1,10 @@
 
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex('subrace').del()
     .then(function () {
       // Inserts seed entries
-      return knex('table_name').insert([
+      return knex('subrace').insert([
         {
           id: 1,
           race_id: 1,
