@@ -2,7 +2,6 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('race', function (table) {
     table.increments();
-    table.integer('dragonborn_color_id').references('id').inTable('dragonborn_color');
     table.string('name');
     table.string('skills');
     table.integer('str_mod');
