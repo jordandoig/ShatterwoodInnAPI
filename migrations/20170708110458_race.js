@@ -19,10 +19,10 @@ exports.up = function(knex, Promise) {
     table.string('weapon_profs');
     table.string('armor_profs');
     table.string('tool_profs');
-    table.string('names_male');
-    table.string('names_female');
+    table.string('names_male', 2000);
+    table.string('names_female', 2000);
     table.string('names_family_title');
-    table.string('names_family');
+    table.string('names_family', 2000);
     table.integer('phb_page');
   })
 };
